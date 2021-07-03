@@ -1,0 +1,51 @@
+h1 {
+    font-family:inherit;
+    color: rgb(174, 24, 194);
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    font-family:initial;
+    font-size:unset;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    font-family:-apple-system;
+    font-size:larger;
+    background-color: rgba(241, 26, 62, 0.644);
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    font-family:sans-serif;
+    font-size:smaller;
+    background-color: rgba(56, 170, 22, 0.925);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    font-family:monospace;
+    font-size:xx-small;
+    background-color: rgb(255, 230, 0);
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    font-family: fantasy;
+    font-size:medium;
+    background-color: rgb(17, 0, 255);
+    text-align: center;
+}
+
+
